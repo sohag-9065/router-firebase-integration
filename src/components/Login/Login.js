@@ -2,6 +2,7 @@ import React from 'react';
 import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
+    // use Firebase hooks from github . replace manual
     const {signInWithGoogle} = useFirebase();
     return (
         <div>
